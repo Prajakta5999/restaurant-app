@@ -1,0 +1,58 @@
+<!-- <p>restaurants works!</p> -->
+<!-- {{restaurant}} -->
+
+<h2 class="Andika">Restaurants in Shahada</h2><br><br>
+
+<div>
+    <label class="Andika" id="addrestaurant">Add New Restaurant:
+      <input #restaurantName id="added" class="Andika"/>
+    </label>
+    <!-- (click) passes input value to add() and then clears the input -->
+    <br><br>
+    <button (click)="add(restaurantName.value); restaurantName.value=''" class="Andika" id="add">
+      Add restaurant
+    </button>
+</div>
+
+     
+<ul class="restaurants">
+    <li *ngFor="let restaurant of restaurants" class="Andika">
+      <a routerLink="/detail/{{restaurant.id}}">
+        <span class="badge">{{restaurant.id}}</span> {{restaurant.name}}
+      </a>
+      <button class="delete" title="delete restaurant"
+        (click)="delete(restaurant)" title="delete restaurant">X</button>
+    </li>
+</ul>
+        
+ 
+<!-- <div><span>id : </span>{{restaurant.id}}</div>
+<div><label>name : 
+    <input [ngModel] = "restaurant.name" placeholder="Oberoy Hotel"/>
+
+</label></div> -->
+
+<!-- <ul class = "restaurants">
+    <li *ngFor = "let restaurant of restaurants"> 
+        <a router-link = "/detail/{{restaurant.id}}">
+        <span class="badge">{{restaurant.id}}
+
+        </span>{{restaurant.name}}
+        </a>
+    </li>
+</ul> -->
+<!-- <app-restaurant-detail [restaurant] = "selectedRestaurant"></app-restaurant-detail> -->
+<!-- <div *ngIf = "selectedRestaurant">
+    <h2>{{selectedRestaurant.name | uppercase}} Details</h2>
+    <div><span>ID : </span>{{selectedRestaurant.id}}</div>
+    <div>
+        <label>
+            Name : <input [(ngModel)] ="selectedRestaurant.name" 
+            placeholder = "name"/>
+        </label>
+</div>
+</div> -->
+
+
+
+

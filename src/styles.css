@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import url( "https://unpkg.com/browse/bootstrap@4.1.0/dist/css/bootstrap.min.css");
+
+ @font-face
+{
+    font-family: 'Andika New Basic', sans-serif; 
+    src: url(assets/fonts/RobotoMono-Italic.ttf) format('truetype');
+
+}
+
+.Andika
+{
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+   
+    
+   
+}
+.search
+{
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-size:  30px;
+    color: deepskyblue;
+    text-shadow: 1px 4px 5px red;
+   
+
+
+}
+#input
+  {
+      height: 40px;
+      width: 800px;
+      border-radius: 30px;
+
+
+  }
+
+  #btn
+  {
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(219, 146, 9);
+    background-color: indianred;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-size: 20px;
+
+
+  }

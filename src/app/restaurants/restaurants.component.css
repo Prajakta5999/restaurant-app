@@ -1,0 +1,108 @@
+.restaurants {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.restaurants li {
+  position: relative;
+  cursor: pointer;
+  /* background-color: #EEE; */
+  background-color: rgb(11, 248, 248);
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+
+.restaurants li:hover {
+  color: #607D8B;
+  /* background-color: #DDD; */
+  background-color :darkseagreen;
+  left: .1em;
+}
+
+.restaurants a {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  width: 250px;
+}
+
+.restaurants a:hover {
+  /* color:#607D8B; */
+  color: coral;
+}
+
+.restaurants .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  /* background-color:#405061; */
+  background-color: coral;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button.delete {
+  position: relative;
+  left: 194px;
+  top: -32px;
+  /* background-color: gray !important; */
+  background-color: darkred;
+  color: white;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 0;
+  color: crimson;
+  font-size: 30px;
+}
+#addrestaurant
+{
+
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
+  font-size:  20px;
+  color: deepskyblue;
+  text-shadow: 1px 4px 5px red;
+}
+#added
+{
+  width: 800px;
+  height: 30px;
+
+}
+
+#add
+{
+    height: 60px;
+    /* width: 40px; */
+    color: coral;
+    font-size: 15px;
+    background-color: #333;
+    border: 2px solid coral;
+
+}

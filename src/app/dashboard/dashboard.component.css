@@ -1,0 +1,78 @@
+/* DashboardComponent's private CSS styles */
+[class*='col-'] {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  [class*='col-']:last-of-type {
+    padding-right: 0;
+  
+  }
+  a {
+    text-decoration: none;
+  }
+  *, *::after, *::before {
+    box-sizing: border-box;
+  }
+  h3 {
+    text-align: center;
+    margin-bottom: 0;
+    color: crimson;
+    font-size: 30px;
+  }
+  h4 {
+    position: relative;
+    color: coral;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 3px 6px 5px lightgreen;
+  }
+  .grid {
+    margin: 0;
+  }
+  .col-1-4 {
+    width: 25%;
+  }
+  .module {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    max-height: 120px;
+    min-width: 120px;
+     /* background-color: #3f525c; */
+    /* background-color: cyan; */
+   
+    border-radius: 2px;
+  }
+  .module:hover {
+    /* background-color: rgb(238, 238, 238); */
+    background-color: rgb(246, 147, 147);
+    cursor: pointer;
+    color: #607d8b;
+     background: url('/assets/dash-images/1.jpg') no-repeat   center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+     
+  }
+  .grid-pad {
+    padding: 10px 0;
+  }
+  .grid-pad > [class*='col-']:last-of-type {
+    padding-right: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .module {
+      font-size: 10px;
+      max-height: 75px; }
+  }
+  @media (max-width: 1024px) {
+    .grid {
+      margin: 0;
+    }
+    .module {
+      min-width: 60px;
+    }
+  }

@@ -1,0 +1,78 @@
+/* AppComponent's private CSS styles */
+
+
+h1 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited, a:link {
+    color: #334953;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #cfd8dc;
+  }
+  nav a.active {
+    color: #039be5;
+  }
+  
+  body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wrapper{
+    background: url('/assets/dash-images/9.jpg') no-repeat   center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+  }
+  ul{
+
+
+    background-color: cornflowerblue;
+    height: 50px;
+    padding: 0px;
+    /* display: inline; */
+
+   
+  }
+  li
+  {
+    
+    padding: 10px;
+    display: inline-block;
+    background-color: cornflowerblue; 
+    color: rgb(196, 96, 15);
+
+    
+
+
+  }
+  
+  #link
+  {
+      text-decoration: none;
+      font-size: 25px;
+      font-family: 'Roboto Mono', monospace;
+      font-style: italic;
+      font-size: 25px;
+      color: rgb(240, 236, 11);
+      text-shadow: 2px 4px 10px red;
+
+  }

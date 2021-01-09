@@ -1,0 +1,14 @@
+<div *ngIf = "restaurant">
+    <h2 class="Andika" id="name">{{restaurant.name | uppercase}} Details</h2>
+    
+    <div id="id"><span>ID : </span>{{restaurant.id}}</div>
+    <div id="name">
+        <!-- <label class="Andika"> -->
+          <span>  Name  : </span> <input [(ngModel)] ="restaurant.name" placeholder = "name" id="name"/>
+        <!-- </label> -->
+    </div>
+
+    <div><button (click)="goBack()" id="btn"> go back </button> </div>
+    <div><button (click)="save()" id="btn"> save </button></div>
+
+</div>
